@@ -1,0 +1,24 @@
+{
+  "name": "my-electron-to-python",
+  "version": "1.0.0",
+  "description": "Hello Python!",
+  "main": "main.js",
+  "scripts": {
+    "test": "error",
+    "start": "electron"
+  },
+  "keywords": [
+    "electron",
+    "to",
+    "python"
+  ],
+  "author": "jeong",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "python-shell": "^3.0.1"
+  }
+}

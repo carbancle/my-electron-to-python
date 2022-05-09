@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./ui/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Python And ElectronJS</title>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1>Welcome to ElectronJS and Python</h1>
+          <h2>This is electronjs course</h2>
+          <h3>Please subscribe my channel</h3>
+          <p>Hello world!</p>
+          <div>
+            <button class="btn btn-primary">Click Me</button>
+            <button class="btn btn-danger">Delete</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 p-4 my-auto">
+          <form class="card card-body" id="myform">
+            <div class="form-group">
+              <input type="text" id="title" class="form-control" placeholder="Please Enter Title" autofocus>
+            </div>
+            <div class="form-control">
+              <textarea id="description" rows="10"></textarea>
+            </div>
+            <button class="btn btn-success">Save</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          We are using Node.js <span id="node-version"></span>,
+          Chromium <span id="chrome-version"></span>,
+          and Electron <span id="electron-version"></span>.
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
